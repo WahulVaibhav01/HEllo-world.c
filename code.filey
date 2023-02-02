@@ -1,0 +1,74 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+ void main()
+ {
+ char name,email,location;
+ int pass,choice,mobile;
+    clrscr();
+   printf("****************************************************************\n");
+   printf("                 Welcome to Bookmyflight.com\n"   );
+   printf("*********************************************************************\n");
+   printf(" press 1. for Flight booking\n");
+   printf(" Press 2. for Offers \n");
+   printf(" press 3. for settings\n");
+   printf(" Press 4. for My Account\n");
+   printf(" press 5. for Contact us\n");
+      
+        printf("Enter your Choice\n");
+        scanf("%d",&choice);
+  
+  if(choice==1)
+            
+      {      printf("Enter your Name \n");
+            scanf("%s",&name);
+            printf("Enter your Mobile no\n");
+            scanf("%d",&mobile);
+            printf("Enter your Pass no \n");
+            scanf("%d",&pass);
+            printf("Enter your  Location \n");
+            scanf("%s",&location);
+            
+            
+        if(location=='a' || location=='e' || location=='i' || location=='o' || location=='u')
+        {
+         printf(" 3 Flights are avilable for there\n");
+         printf(" 1. Indigo Bussiness class at 5999 for per person \n");
+         printf(" 2. Spicejet Economy class at 2999 for per person \n");
+         printf(" 3. Airlines Economy class at 2499 for per person \n ");
+             
+                 printf("Enter your choice\n");
+                 scanf("%d",&choice");
+                 }
+                  if (choice==1 || choice==2 || choice==3 )
+                  {
+                  printf("Your set no is 56D \n");
+                  printf("Thanks for Booking Here \n");
+                  }
+                  else 
+                  {
+                      printf(" No flights avilable  for there \n);
+                      }
+                    }
+                    else
+                    {
+                    printf("No Flights for there \n");
+                    }
+                  
+                  else 
+                  {
+                  printf("Try Again\n");
+                  }
+                  getch();
+                  }
+                  
+                    
+                      
+                  
+         
+        
+        
+         
+   
+   
+   
